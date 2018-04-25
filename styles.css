@@ -1,0 +1,16 @@
+#frontPage {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#frontPageImage {
+	width: 100%;
+}
+
+#page1 {
+	display: none;
+}
+
+#page0 {
+	display: none;
+}

@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dr. Jane</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="frontPage">
+		<img id="frontPageImage" src="images/main_title.png">
+	</div>
+	<div id="diagnosisStart">
+		Plants Name: <input type="text" id="plantName" value="Plants Name">
+		<button id="diagnosisButton" onclick="startDiagnosis()">Diagnose Me</button>
+	</div>
+<div id="page0" class="page0">
+	<p>
+		So, something is wrong with your <span id="nameInput"></span> plant, lets get to the bottom of this. Where is the problem located on your <span class="nameInput"></span> plant? 
+	</p>
+	<p>
+		 Immobile nutrients are incorporated into plant tissue and are unable to move around after your plant finds a home for them. If your plant has a deficiency that is being caused by an immobile nutrient being unavailable it will most often times appear in the younger/newer growth first. This is because nutrients are not available in the soil and the plant is also not capable of moving these immobile nutrients from one part of the plant to another. If the damage you are seeing on your plant is occurring on the newer growth tips, and leaves select the YOUNG/NEW LEAVES option.
+	</p>
+	<p>
+		Mobile nutrients are able to move freely around inside of a plant. And typically new shoots, growth and flowers are of extreme importance to a plant. So if mobile nutrients are lacking a plant will steal these vital resources from older more mature growth to feed the quickly growing young shoots and leaves. If you see damage in your bigger old fan leaves select the OLD/MATURE LEAVES option this typically will mean that you have a deficiency in an immobile nutrient.
+	</p>	
+	<p>
+		It should be noted that the environment your plants are growing in is of utmost importance. Here are some quick pointers to check before you proceed, room temperature not above 85°F and not below 70°F. Humidity not above 65 percent and not below 40 percent. If you're hand watering your plants make sure that they're never sitting in standing water. Also a good rule of thumb for watering is a simple lift test. After a nice and heavy watering lift the pot of your plant and get a good feeling for the weight. If your growing in coco you'll want to water when the pot is half of its initial watered weight. No matter what medium you're using the pot should be significantly lighter.
+	</p>
+	<button onclick="hidePageZeroShowPageOne()">Young/New Leaves</button>
+	<button>Old/Mature Leaves</button>
+</div>
+<div id="page1">
+<p>This is page 1 Asshat</p>
+	<button onclick="hidePageZeroShowPageOne()">Young/New Leaves</button>
+	<button>Old/Mature Leaves</button>
+</div>
+
+
+<script type="text/javascript" src="app.js">
+    </script>
+</body>
+</html>
